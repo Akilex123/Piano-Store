@@ -171,3 +171,39 @@ header .navbar {
   color: yellow;
   transition: 0.2s ease;
 }
+
+/* Product section styling */
+.product-section {
+  color: white;
+  background: blue;
+  padding: 50px 0 100px;
+}
+.product-section .product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-section .product-list .product-item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc((100% - 80px) / 2);
+}
+.product-section .product-list .product-item .product-image {
+  max-width: 83%;
+  aspect-ratio: 1;
+  margin-bottom: 15px;
+  object-fit: contain;
+}
+.product-section .product-list .product-item .name {
+  margin: 5px 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.product-section .product-list .product-item .text {
+  font-size: 15px;
+}
