@@ -207,3 +207,30 @@ header .navbar {
 .product-section .product-list .product-item .text {
   font-size: 15px;
 }
+
+/* Testimonials section styling*/
+.testimonials-section {
+  padding: 50px 0 100px;
+  background: beige;
+}
+.testimonials-section .testimonial {
+  display: flex;
+  padding: 35px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonials-section .testimonial .user-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.testimonials-section .testimonial .name {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.testimonials-section .testimonial .feedback {
+  line-height: 25px;
+}
