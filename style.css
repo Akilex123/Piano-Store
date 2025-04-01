@@ -234,3 +234,66 @@ header .navbar {
 .testimonials-section .testimonial .feedback {
   line-height: 25px;
 }
+
+/* Contact us section styling*/
+.contact-section {
+  background: blue;
+  padding: 50px 100px 100px;
+}
+.contact-section .section-title {
+  color: beige;
+}
+.contact-section .section-content {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.contact-section .contact-info-list .contact-info {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+  align-items: center;
+}
+.contact-section .contact-info-list .contact-info i {
+  font-size: 15px;
+  color: beige;
+}
+.contact-section .contact-info-list .contact-info p {
+  font-size: 15px;
+  color: beige;
+}
+
+.contact-section .contact-form .form-input {
+  width: 100%;
+  height: 50px;
+  padding: 0 12px;
+  outline: none;
+  margin-bottom: 12px;
+  background-color: beige;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.contact-section .contact-form {
+  max-width: 50%;
+}
+.contact-section .contact-form textarea.form-input {
+  height: 100px;
+  padding: 12px;
+  resize: vertical;
+}
+.contact-section .contact-form .submit-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: beige;
+  color: black;
+  border-radius: 25px;
+  font-weight: medium;
+  font-size: 12px;
+  border: 1px solid beige;
+  transition: 0.2s ease;
+}
+.contact-section .contact-form .submit-button:hover {
+  background: blue;
+  color: white;
+}
