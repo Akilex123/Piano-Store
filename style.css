@@ -186,13 +186,16 @@ header .navbar {
 /* Product section styling */
 .product-section {
   color: white;
-  background: blue;
+  background: rgb(125, 1, 1);
   padding: 50px 0 100px;
+}
+.product-section .section-title::after {
+  background: beige;
 }
 .product-section .product-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 80px;
+  gap: 75px;
   align-items: center;
   justify-content: space-between;
 }
@@ -205,10 +208,20 @@ header .navbar {
   width: calc((100% - 80px) / 2);
 }
 .product-section .product-list .product-item .product-image {
-  max-width: 83%;
+  max-width: 70%;
   aspect-ratio: 1;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   object-fit: contain;
+  border-radius: 15px;
+  transition: 0.2s ease;
+}
+.product-section .product-list .product-item .pr1 {
+  padding-top: 50px;
+}
+
+.product-section .product-list .product-item .product-image:hover {
+  border: 3px solid beige;
+  opacity: 0.4;
 }
 .product-section .product-list .product-item .name {
   margin: 5px 0;
@@ -245,15 +258,26 @@ header .navbar {
 .testimonials-section .testimonial .feedback {
   line-height: 25px;
 }
+.testimonials-section .swiper-slide-button {
+  color: #8b0000;
+  transition: 0.3s ease;
+}
+.testimonials-section .swiper-slide-button:hover {
+  color: rgb(198, 198, 198);
+}
+.testimonials-section .swiper-pagination-bullet {
+  background: #8b0000;
+}
 
 /* Contact us section styling*/
 .contact-section {
-  background: blue;
+  background: rgb(125, 1, 1);
   padding: 50px 100px 100px;
 }
 .contact-section .section-title {
   color: beige;
 }
+
 .contact-section .section-content {
   display: flex;
   gap: 30px;
